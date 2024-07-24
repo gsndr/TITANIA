@@ -1,7 +1,7 @@
 #  self-DisTIlled uneT for Sentinel-2 imAge semaNtIc segmentAtion  (TITANIA)
 
 
-The repository contains code refered to the work:
+The repository contains code referred to the work:
 
 _Giuseppina Andresini, Annalisa Appice,  Donato Malerba _
 
@@ -30,8 +30,31 @@ Packages needed are:
 Repository contains scripts of all experiments included in the paper:
 * __main.py__ : script to run  TITANIA 
 To run the code the command is main.py NameOfDataset (es FRANCE10, FIRES)
-  
+The details of dataset should be included in the file ___CONFIG.conf__
+For example:
+```python
+[FRANCE10]
+pathModels = Models/BB/October/
+pathDatasetTrain = ../DS/SWIFTT/SRI_FRANCE/October/Train/
+pathDatasetTest = ../DS/SWIFTT/SRI_FRANCE/October/Test/
+pathDatasetTrainM = ../DS/SWIFTT/SRI_FRANCE/Masks/Train/
+pathDatasetTestM = ../DS/SWIFTT/SRI_FRANCE/Masks/Test/
+sizetest=543
+resizeChannel=0
+shape=32
+channels=12
+tilesSize=32
+attack=255
+tiles=1
+```
 
+#Data
+The dataset should be split into four folders: images of the test, images of the train, masks of the test, and masks of the train. 
+Each folder contains: 
+* Folder tiff containing the image in tiff format
+* Folder numpy that is used to store the numpy version of the tiff files
+* Folder tiles containing the tile used for computation
+See an example in the folder DS associated to this repository
  
 ## Replicate the experiments
 
