@@ -37,12 +37,13 @@ pathDatasetTrain = ../DS/SWIFTT/SRI_FRANCE/October/Train/
 pathDatasetTest = ../DS/SWIFTT/SRI_FRANCE/October/Test/
 pathDatasetTrainM = ../DS/SWIFTT/SRI_FRANCE/Masks/Train/
 pathDatasetTestM = ../DS/SWIFTT/SRI_FRANCE/Masks/Test/
+#number of files in the folder tiles of the test
 sizetest=543
-resizeChannel=0
-shape=32
+#number of channels
 channels=12
+#shape of the tiled image
 tilesSize=32
-attack=255
+#if 1 create tiles
 tiles=1
 ```
 
@@ -81,6 +82,7 @@ SHALLOW=[5,4,3]
 ## Download datasets
 
 [Bark Beetle in France](https://drive.google.com/drive/folders/11JPIK6cfgXdMY0PG4YHh6z8fuswBW3JO?usp=sharing)
+
 [FIRES] (https://drive.google.com/drive/folders/11bdq4pyRjLD37QV9o7dyvgcHt79xEztk?usp=sharing)
 
 ## Download trained models 
