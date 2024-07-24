@@ -15,15 +15,13 @@ Please cite our work if you find it useful for your research and work.
 
 
 ## Code requirements
-The code relies on the following python3.7+ libs.
+The code relies on the following python3.9+ libs.
 Packages needed are:
-* Tensorflow 2.4.0
-* Pandas 1.3.2
-* Numpy 1.19.5
-* Matplotlib 3.4.2
-* Hyperopt 0.2.5
-* Keras 2.4.3
-* Scikit-learn 0.24.2
+* Tensorflow 2.15
+* Numpy 1.26.3
+* Hyperopt 0.2.7
+* Keras 2.15.0
+* Scikit-learn 1.3.0
 
 
 ## How to use
@@ -77,7 +75,8 @@ SHALLOW=[5,4,3]
 
 ## Download datasets
 
-[All datasets]()
+[Bark Beetle in France](https://drive.google.com/drive/folders/11JPIK6cfgXdMY0PG4YHh6z8fuswBW3JO?usp=sharing)
+[FIRES] (https://drive.google.com/drive/folders/11bdq4pyRjLD37QV9o7dyvgcHt79xEztk?usp=sharing)
 
 
 
