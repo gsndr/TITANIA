@@ -24,7 +24,7 @@ Packages needed are:
 * Hyperopt 0.2.5
 * Keras 2.4.3
 * Scikit-learn 0.24.2
-* [Visual-attention-tf 1.2](https://pypi.org/project/visual-attention-tf/)
+
 
 ## How to use
 Repository contains scripts of all experiments included in the paper:
