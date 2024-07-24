@@ -61,8 +61,8 @@ def main():
     pathTestM = dsConf.get('pathDatasetTestM')
 
     pathModel = dsConf.get('pathModels')
-    shape = int(dsConf.get('shape'))
-    ch = int(dsConf.get('channels'))
+    shape = int(dsConf.get('tilesSize'))
+
     tiles = int(dsConf.get('tiles'))
     tilesSize = int(dsConf.get('tilesSize'))
 
@@ -72,7 +72,7 @@ def main():
 
 
 
-    attack = int(dsConf.get('attack'))
+
     ch = int(dsConf.get('channels'))
 
 
