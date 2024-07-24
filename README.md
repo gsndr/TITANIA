@@ -62,14 +62,19 @@ Global variables are stored in __CONFIG.conf__  file
 
 ```python
 [setting]
-ATTACK_LABEL = 1
-#se 1 viene effettuato il preprocessing del dataset
+#if the images are of different size performs the padding
 RESIZE=1
+#to use the channel attention
 ATTENTION=1
+#to train self distillation
 TRAIN_SELF_DISTILLATION=1
+#for prediction
 PREDICTION=1
+#to preprocess images (e.g., creation of numpy, tiles)
 PREPROCESSING=1
+#to preprocess masks
 PREPROCESSING_MASKS=1
+#select the shallow models to be used for the creation of the model
 SHALLOW=[5,4,3]
 ```
 
