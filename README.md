@@ -1,4 +1,4 @@
-#  (self-Dis{\sf TI}lled une{\sf T} for Sentinel-2 im{\sf A}ge sema{\sf N}tIc segment{\sf A}tion)  (TITANIA)
+#  self-DisTIlled uneT for Sentinel-2 imAge semaNtIc segmentAtion  (TITANIA)
 
 
 The repository contains code refered to the work:
@@ -12,7 +12,6 @@ Please cite our work if you find it useful for your research and work.
 
 
 ```
-
 
 
 ## Code requirements
