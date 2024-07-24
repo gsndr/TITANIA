@@ -137,8 +137,7 @@ def main():
 
 
         print(name_model)
-       
-        pathImagesSave = dsConf.get('pathSaveImages')  # pathto save images
+
         
 
         model = tf.keras.models.load_model(name_model + '_model.tf', compile=False)
@@ -199,11 +198,6 @@ def main():
                 pred_image.append(pred)
              
 
-            # Setup merging parameters
-            imgAll = Utils.mergeImage(mask, pred_image)
-            name=os.path.basename(os.path.normpath(m_path))
-            name = _returnNameImage(name)
-            imageio.imwrite(pathImagesSave + name + '.png', (imgAll * 255).astype(np.uint8))
             true_image = [arr.tolist() for arr in true_image]
             true_image = Utils.flattenList(true_image)
             pred_image = [arr.tolist() for arr in pred_image]
