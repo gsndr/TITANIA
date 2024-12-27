@@ -3,7 +3,7 @@
 
 The repository contains code referred to the work:
 
-_Giuseppina Andresini, Annalisa Appice,  Donato Malerba _
+_Giuseppina Andresini, Annalisa Appice,  Donato Malerba_
 
 [A Deep Semantic Segmentation Approach to Map Forest Tree Dieback in Sentinel-2 Data](https://ieeexplore.ieee.org/document/10680607) 
 
