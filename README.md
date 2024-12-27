@@ -5,11 +5,20 @@ The repository contains code referred to the work:
 
 _Giuseppina Andresini, Annalisa Appice,  Donato Malerba _
 
-[A Deep Semantic Segmentation Approach to Map Forest Tree Dieback in Sentinel-2 Data]() 
+[A Deep Semantic Segmentation Approach to Map Forest Tree Dieback in Sentinel-2 Data](https://ieeexplore.ieee.org/document/10680607) 
 
 Please cite our work if you find it useful for your research and work.
 ```
-
+@ARTICLE{10680607,
+  author={Andresini, Giuseppina and Appice, Annalisa and Malerba, Donato},
+  journal={IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing}, 
+  title={A Deep Semantic Segmentation Approach to Map Forest Tree Dieback in Sentinel-2 Data}, 
+  year={2024},
+  volume={17},
+  number={},
+  pages={17075-17086},
+  keywords={Forestry;Vegetation;Tensors;Remote sensing;Titanium dioxide;Monitoring;Accuracy;Attention;forest tree die-back monitoring;forest wildfires monitoring;insect outbreak monitoring;self-distillation;semantic segmentation;Sentinel-2 image processing},
+  doi={10.1109/JSTARS.2024.3460981}}
 
 ```
 
